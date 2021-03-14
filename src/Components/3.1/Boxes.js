@@ -32,7 +32,7 @@ class Boxes extends React.Component {
 
     render() {
         return <div style={box1Style}>
-            <div style={box2Style }>
+            <div style={box2Style}>
                 <div style={box3Style}>
                     <div style={box4Style}></div>
                     <div style={{
