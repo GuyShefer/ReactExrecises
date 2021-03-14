@@ -5,12 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import MyTitle from './Components/2.1/MyTitle';
 import Interpolation from './Components/2.2/Interpolation';
-
+import Boxes from './Components/3.1/Boxes'
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-    <MyTitle/>
-    <Interpolation/>
+    {/* <App /> */}
+    {/* <MyTitle/> */}
+    {/* <Interpolation/> */}
+    <Boxes/>
   </React.StrictMode>,
   document.getElementById('root')
 );
