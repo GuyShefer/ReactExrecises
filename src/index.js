@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import MyTitle from './Components/2.1/MyTitle';
+import Interpolation from './Components/2.2/Interpolation';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <MyTitle/>
+    <Interpolation/>
   </React.StrictMode>,
   document.getElementById('root')
 );
