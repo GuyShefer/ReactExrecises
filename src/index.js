@@ -5,9 +5,9 @@ import reportWebVitals from './reportWebVitals';
 import App from './App';
 import MyTitle from './Components/2.1/MyTitle';
 import Interpolation from './Components/2.2/Interpolation';
-import Boxes from './Components/3.1/Boxes'
+import Boxes from './Components/3.1/Boxes';
 import Quiz from './Components/3.2/Quiz';
-
+import ButtonsContainer from './Components/4.1/ButtonsContainer';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,7 +15,8 @@ ReactDOM.render(
     {/* <MyTitle/> */}
     {/* <Interpolation/> */}
     {/* <Boxes/> */}
-    <Quiz/>
+    {/* <Quiz/> */}
+    <ButtonsContainer/>
   </React.StrictMode>,
   document.getElementById('root')
 );
