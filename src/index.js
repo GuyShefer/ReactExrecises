@@ -8,6 +8,7 @@ import Interpolation from './Components/2.2/Interpolation';
 import Boxes from './Components/3.1/Boxes';
 import Quiz from './Components/3.2/Quiz';
 import ButtonsContainer from './Components/4.1/ButtonsContainer';
+import CardsContainer from './Components/4.2/CardsContainer';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,7 +17,8 @@ ReactDOM.render(
     {/* <Interpolation/> */}
     {/* <Boxes/> */}
     {/* <Quiz/> */}
-    <ButtonsContainer/>
+    {/* <ButtonsContainer/> */}
+    <CardsContainer/>
   </React.StrictMode>,
   document.getElementById('root')
 );
