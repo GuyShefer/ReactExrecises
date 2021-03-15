@@ -13,6 +13,7 @@ import CardsContainer from './Components/6.1/CardsContainer';
 import Counter from './Components/7.1/Counter.component';
 import FuncCounter from './Components/7.1/FuncCounter.component copy';
 import HideNSeek from './Components/7.2/HideNSeek.component';
+import FuncHideNSeek from './Components/7.2/FuncHideNSeek.component';
 
 
 ReactDOM.render(
@@ -26,7 +27,8 @@ ReactDOM.render(
     {/* <CardsContainer/> */}
     {/* <Counter /> */}
     {/* <FuncCounter/> */}
-    <HideNSeek/>
+    {/* <HideNSeek/> */}
+    <FuncHideNSeek />
 
   </React.StrictMode>,
   document.getElementById('root')
