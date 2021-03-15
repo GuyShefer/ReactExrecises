@@ -10,6 +10,8 @@ import Quiz from './Components/3.2/Quiz';
 import ButtonsContainer from './Components/4.1/ButtonsContainer';
 // import CardsContainer from './Components/4.2/CardsContainer';
 import CardsContainer from './Components/6.1/CardsContainer';
+import Counter from './Components/7.1/Counter.component';
+import FuncCounter from './Components/7.1/FuncCounter.component copy';
 
 
 ReactDOM.render(
@@ -20,7 +22,10 @@ ReactDOM.render(
     {/* <Boxes/> */}
     {/* <Quiz/> */}
     {/* <ButtonsContainer/> */}
-    <CardsContainer/>
+    {/* <CardsContainer/> */}
+    {/* <Counter /> */}
+    <FuncCounter/>
+
   </React.StrictMode>,
   document.getElementById('root')
 );
