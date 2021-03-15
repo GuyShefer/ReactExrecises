@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from '../4.2/Card'
+import Card from '../6.1/Card'
 
 const cards = [{h1:'first', p:'some text1'}, {h1:'second', p:'some text2'}, {h1:'third', p:'some text3'}];
 
