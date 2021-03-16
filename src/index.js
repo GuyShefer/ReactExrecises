@@ -15,6 +15,7 @@ import FuncCounter from './Components/7.1/FuncCounter.component copy';
 import HideNSeek from './Components/7.2/HideNSeek.component';
 import FuncHideNSeek from './Components/7.2/FuncHideNSeek.component';
 import { LifeCycle } from './Components/8.1/LifeCycle';
+import { BoxAnimation } from './Components/8.2/BoxAnimation';
 
 
 ReactDOM.render(
@@ -30,7 +31,12 @@ ReactDOM.render(
     {/* <FuncCounter/> */}
     {/* <HideNSeek/> */}
     {/* <FuncHideNSeek /> */}
-    <LifeCycle/>
+    {/* <LifeCycle/> */}
+    <BoxAnimation size ={'50px'}/>
+    <br></br>
+    <BoxAnimation size ={'100px'}/>
+    <br></br>
+    <BoxAnimation size ={'200px'}/>
 
   </React.StrictMode>,
   document.getElementById('root')
