@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import App from './App';
-import MyTitle from './Components/2.1/MyTitle';
+// import MyTitle from './Components/2.1/MyTitle';
 import Interpolation from './Components/2.2/Interpolation';
 import Boxes from './Components/3.1/Boxes';
 import Quiz from './Components/3.2/Quiz';
@@ -20,7 +20,7 @@ import { BoxAnimation } from './Components/8.2/BoxAnimation';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
+    <App />
     {/* <MyTitle/> */}
     {/* <Interpolation/> */}
     {/* <Boxes/> */}
@@ -32,11 +32,11 @@ ReactDOM.render(
     {/* <HideNSeek/> */}
     {/* <FuncHideNSeek /> */}
     {/* <LifeCycle/> */}
-    <BoxAnimation size ={'50px'}/>
+    {/* <BoxAnimation size ={'50px'}/>
     <br></br>
     <BoxAnimation size ={'100px'}/>
     <br></br>
-    <BoxAnimation size ={'200px'}/>
+    <BoxAnimation size ={'200px'}/> */}
 
   </React.StrictMode>,
   document.getElementById('root')

@@ -1,27 +1,31 @@
 import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { Spinner } from './Components/9.1/Spinner';
+import { BoxAnimation } from './Components/8.2/BoxAnimation';
+import FuncHideNSeek from './Components/7.2/FuncHideNSeek.component';
 
-function App() {
-  const button = 'Click Me'
-  
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-         {button}
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  state = { showSpinner: true };
+
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({
+        showSpinner: false,
+      });
+    }, 1000);
+  }
+
+  render() {
+    if (this.state.showSpinner) {
+      return <div><Spinner /></div>;
+    } else {
+      return < div ></div >
+    }
+
+  }
+
 }
+
 
 export default App;
