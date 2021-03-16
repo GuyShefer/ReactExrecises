@@ -6,7 +6,6 @@ export class BoxAnimation extends React.Component {
 
     componentDidMount() {
         const boxes = document.querySelectorAll('.box');
-        console.log(boxes)
         setTimeout(() => {
             boxes.forEach(box => box.classList.add('style'));
         }, 1000);
