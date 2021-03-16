@@ -14,6 +14,7 @@ import Counter from './Components/7.1/Counter.component';
 import FuncCounter from './Components/7.1/FuncCounter.component copy';
 import HideNSeek from './Components/7.2/HideNSeek.component';
 import FuncHideNSeek from './Components/7.2/FuncHideNSeek.component';
+import { LifeCycle } from './Components/8.1/LifeCycle';
 
 
 ReactDOM.render(
@@ -28,7 +29,8 @@ ReactDOM.render(
     {/* <Counter /> */}
     {/* <FuncCounter/> */}
     {/* <HideNSeek/> */}
-    <FuncHideNSeek />
+    {/* <FuncHideNSeek /> */}
+    <LifeCycle/>
 
   </React.StrictMode>,
   document.getElementById('root')
