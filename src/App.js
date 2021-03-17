@@ -5,6 +5,7 @@ import { Spinner } from './Components/9.1/Spinner';
 import { BoxAnimation } from './Components/8.2/BoxAnimation';
 import FuncHideNSeek from './Components/7.2/FuncHideNSeek.component';
 import ChangingBox from './Components/8.3/ChangingBox';
+import { Parent } from './Components/11.1/Parent';
 
 class App extends React.Component {
   state = { showSpinner: true };
@@ -22,7 +23,8 @@ class App extends React.Component {
       return <div><Spinner /></div>;
     } else {
       return <div>
-        <ChangingBox/>
+        {/* <ChangingBox/> */}
+        <Parent/>
       </div >
     }
 
