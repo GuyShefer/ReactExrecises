@@ -7,6 +7,8 @@ import FuncHideNSeek from './Components/7.2/FuncHideNSeek.component';
 import ChangingBox from './Components/8.3/ChangingBox';
 import { Parent } from './Components/11.1/Parent';
 import { CheckBoxes } from './Components/11.2/CheckBoxes';
+import { FormReview } from './Components/11.3/FormReview';
+import { FormComponent } from './Components/11.3/FormComponent';
 
 class App extends React.Component {
   state = { showSpinner: true };
@@ -26,7 +28,8 @@ class App extends React.Component {
       return <div>
         {/* <ChangingBox/> */}
         {/* <Parent/> */}
-        <CheckBoxes/>
+        {/* <CheckBoxes/> */}
+        <FormComponent/>
       </div >
     }
 
