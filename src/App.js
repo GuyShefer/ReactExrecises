@@ -9,6 +9,7 @@ import { Parent } from './Components/11.1/Parent';
 import { CheckBoxes } from './Components/11.2/CheckBoxes';
 import { FormReview } from './Components/11.3/FormReview';
 import { FormComponent } from './Components/11.3/FormComponent';
+import { ChukNorris } from './Components/12.1/ChukNorris';
 
 class App extends React.Component {
   state = { showSpinner: true };
@@ -29,7 +30,8 @@ class App extends React.Component {
         {/* <ChangingBox/> */}
         {/* <Parent/> */}
         {/* <CheckBoxes/> */}
-        <FormComponent/>
+        {/* <FormComponent/> */}
+        <ChukNorris/>
       </div >
     }
 

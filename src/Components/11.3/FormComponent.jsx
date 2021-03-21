@@ -41,7 +41,7 @@ export class FormComponent extends React.Component {
             {/* in the 2nd child i have to display the information and set 2 btns:
             1. Add User, 2. back
             in the 2 options above i have to call a function that return me back to here so,
-            if its back > render child 2, else set the userInfo in the useres arr and clear the start and run the 1st child */}
+            if its back > render child 2, else set the userInfo in the useres arr and clear the state and run the 1st child */}
                 
             </>
         )
