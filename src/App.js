@@ -11,6 +11,7 @@ import { FormReview } from './Components/11.3/FormReview';
 import { FormComponent } from './Components/11.3/FormComponent';
 import { ChukNorris } from './Components/12.1/ChukNorris';
 import { DataMassaging } from './Components/13.1/DataMassaging';
+import { Avatars } from './Components/13.2/Avatars';
 
 class App extends React.Component {
   state = { showSpinner: true };
@@ -33,7 +34,8 @@ class App extends React.Component {
         {/* <CheckBoxes/> */}
         {/* <FormComponent/> */}
         {/* <ChukNorris/> */}
-        <DataMassaging/>
+        {/* <DataMassaging/> */}
+        <Avatars/>
       </div >
     }
 

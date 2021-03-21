@@ -1,0 +1,26 @@
+.avatar-card {
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.avatar-img {
+    width: 100%;
+    height: 80%;
+}
+
+.users-container {
+    width: 95vw;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+}
+
+.filter-input {
+    margin-top: 40px;
+}
+
+.filter-btn {
+    margin-bottom: 20px;
+}
