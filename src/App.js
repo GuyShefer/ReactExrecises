@@ -13,6 +13,7 @@ import { ChukNorris } from './Components/12.1/ChukNorris';
 import { DataMassaging } from './Components/13.1/DataMassaging';
 import { Avatars } from './Components/13.2/Avatars';
 import { Focus } from './Components/14.1/Focus'
+import { CopyTextArea } from './Components/14.2/CopyTextArea';
 
 class App extends React.Component {
   state = { showSpinner: true };
@@ -37,7 +38,8 @@ class App extends React.Component {
         {/* <ChukNorris/> */}
         {/* <DataMassaging/> */}
         {/* <Avatars/> */}
-        <Focus />
+        {/* <Focus /> */}
+        <CopyTextArea/>
       </div >
     }
 
