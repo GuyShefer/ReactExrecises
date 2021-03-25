@@ -1,19 +1,13 @@
-import logo from './logo.svg';
 import React from 'react';
 import './App.css';
 import { Spinner } from './Components/9.1/Spinner';
-import { BoxAnimation } from './Components/8.2/BoxAnimation';
-import FuncHideNSeek from './Components/7.2/FuncHideNSeek.component';
-import ChangingBox from './Components/8.3/ChangingBox';
-import { Parent } from './Components/11.1/Parent';
-import { CheckBoxes } from './Components/11.2/CheckBoxes';
-import { FormReview } from './Components/11.3/FormReview';
-import { FormComponent } from './Components/11.3/FormComponent';
-import { ChukNorris } from './Components/12.1/ChukNorris';
-import { DataMassaging } from './Components/13.1/DataMassaging';
-import { Avatars } from './Components/13.2/Avatars';
-import { Focus } from './Components/14.1/Focus'
-import { CopyTextArea } from './Components/14.2/CopyTextArea';
+import { BrowserRouter, Route } from 'react-router-dom';
+import { Homepage } from './Components/16.1/Homepage';
+import { Products } from './Components/16.1/Products';
+import { Header } from './Components/16.1/Header';
+import { ProductDetail } from './Components/16.1/ProductDetail';
+
+
 
 class App extends React.Component {
   state = { showSpinner: true };
@@ -31,15 +25,14 @@ class App extends React.Component {
       return <div><Spinner /></div>;
     } else {
       return <div>
-        {/* <ChangingBox/> */}
-        {/* <Parent/> */}
-        {/* <CheckBoxes/> */}
-        {/* <FormComponent/> */}
-        {/* <ChukNorris/> */}
-        {/* <DataMassaging/> */}
-        {/* <Avatars/> */}
-        {/* <Focus /> */}
-        <CopyTextArea/>
+        <BrowserRouter>
+          <Header />
+          <div>
+            <Route path="/" exact component={Homepage} />
+            <Route path="/products" exact component={Products} />
+            <Route path="/product/:id" exact component={ProductDetail} />
+          </div>
+        </BrowserRouter>
       </div >
     }
 

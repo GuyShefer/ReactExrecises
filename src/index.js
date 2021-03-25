@@ -3,41 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import App from './App';
-// import MyTitle from './Components/2.1/MyTitle';
-import Interpolation from './Components/2.2/Interpolation';
-import Boxes from './Components/3.1/Boxes';
-import Quiz from './Components/3.2/Quiz';
-import ButtonsContainer from './Components/4.1/ButtonsContainer';
-// import CardsContainer from './Components/4.2/CardsContainer';
-import CardsContainer from './Components/6.1/CardsContainer';
-import Counter from './Components/7.1/Counter.component';
-import FuncCounter from './Components/7.1/FuncCounter.component copy';
-import HideNSeek from './Components/7.2/HideNSeek.component';
-import FuncHideNSeek from './Components/7.2/FuncHideNSeek.component';
-import { LifeCycle } from './Components/8.1/LifeCycle';
-import { BoxAnimation } from './Components/8.2/BoxAnimation';
 
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    {/* <MyTitle/> */}
-    {/* <Interpolation/> */}
-    {/* <Boxes/> */}
-    {/* <Quiz/> */}
-    {/* <ButtonsContainer/> */}
-    {/* <CardsContainer/> */}
-    {/* <Counter /> */}
-    {/* <FuncCounter/> */}
-    {/* <HideNSeek/> */}
-    {/* <FuncHideNSeek /> */}
-    {/* <LifeCycle/> */}
-    {/* <BoxAnimation size ={'50px'}/>
-    <br></br>
-    <BoxAnimation size ={'100px'}/>
-    <br></br>
-    <BoxAnimation size ={'200px'}/> */}
-
   </React.StrictMode>,
   document.getElementById('root')
 );
