@@ -7,8 +7,6 @@ import { Products } from './Components/16.1/Products';
 import { Header } from './Components/16.1/Header';
 import { ProductDetail } from './Components/16.1/ProductDetail';
 
-
-
 class App extends React.Component {
   state = { showSpinner: true };
 
