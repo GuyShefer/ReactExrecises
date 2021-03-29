@@ -7,6 +7,7 @@ import { Products } from './Components/16.1/Products';
 import { Header } from './Components/16.1/Header';
 import { ProductDetail } from './Components/16.1/ProductDetail';
 import HideText from './Components/18.1/HideText';
+import SimpleTodo from './Components/18.2/SimpleTodo';
 
 class App extends React.Component {
   state = { showSpinner: true };
@@ -32,7 +33,8 @@ class App extends React.Component {
             <Route path="/product/:id" exact component={ProductDetail} />
           </div>
         </BrowserRouter> */}
-        <HideText text={text} maxLength={50}/>
+        {/* <HideText text={text} maxLength={50}/> */}
+        <SimpleTodo/>
       </div >
     }
 
