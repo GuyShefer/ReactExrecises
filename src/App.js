@@ -8,6 +8,7 @@ import { Header } from './Components/16.1/Header';
 import { ProductDetail } from './Components/16.1/ProductDetail';
 import HideText from './Components/18.1/HideText';
 import SimpleTodo from './Components/18.2/SimpleTodo';
+import WhatsTheTime from './Components/18.3/WhatsTheTime';
 
 class App extends React.Component {
   state = { showSpinner: true };
@@ -34,7 +35,8 @@ class App extends React.Component {
           </div>
         </BrowserRouter> */}
         {/* <HideText text={text} maxLength={50}/> */}
-        <SimpleTodo/>
+        {/* <SimpleTodo/> */}
+        <WhatsTheTime/>
       </div >
     }
 
