@@ -12,6 +12,7 @@ import WhatsTheTime from './Components/18.3/WhatsTheTime';
 import MarkTheBox from './Components/18.4/MarkTheBox';
 import SimpleFetch from './Components/19.1/SimpleFetch';
 import Countries from './Components/19.2/Countries';
+import AlogoliaAPI from './Components/19.3/AlogoliaAPI';
 
 class App extends React.Component {
   state = { showSpinner: true };
@@ -42,7 +43,8 @@ class App extends React.Component {
         {/* <WhatsTheTime/> */}
         {/* <MarkTheBox/> */}
         {/* <SimpleFetch /> */}
-        <Countries/>
+        {/* <Countries/> */}
+        <AlogoliaAPI/>
       </div >
     }
 
