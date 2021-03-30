@@ -13,6 +13,9 @@ import MarkTheBox from './Components/18.4/MarkTheBox';
 import SimpleFetch from './Components/19.1/SimpleFetch';
 import Countries from './Components/19.2/Countries';
 import AlogoliaAPI from './Components/19.3/AlogoliaAPI';
+import { CategoriesJokes } from './Components/12.1/CategoriesJokes';
+import { ChukNorris } from './Components/12.1/ChukNorris';
+import ChukNorrisRefactor from './Components/19.4/ChukNorrisRefactor';
 
 class App extends React.Component {
   state = { showSpinner: true };
@@ -44,7 +47,10 @@ class App extends React.Component {
         {/* <MarkTheBox/> */}
         {/* <SimpleFetch /> */}
         {/* <Countries/> */}
-        <AlogoliaAPI/>
+        {/* <AlogoliaAPI/> */}
+        <ChukNorris/>
+        <hr></hr>
+        <ChukNorrisRefactor/>
       </div >
     }
 

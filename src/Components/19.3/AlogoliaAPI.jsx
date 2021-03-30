@@ -10,9 +10,9 @@ function AlogoliaAPI() {
 
     useEffect(() => {
         (async () => {
-            try{
+            try {
                 const data = await axios.get(`https://hn.algolia.com/api/v1/search?query=${userInput}`);
-                if(data) {
+                if (data) {
                     setLoader(false);
                 }
                 setAlgoliaData(data.data.hits)
@@ -22,7 +22,7 @@ function AlogoliaAPI() {
         })()
     }, [search])
 
-    const inputHandler = (e) =>{
+    const inputHandler = (e) => {
         setInput(e.target.value);
     }
 
@@ -33,10 +33,10 @@ function AlogoliaAPI() {
 
     return (
         <>
-        <label htmlFor="search">Search</label>
-        <input type="text" name="search" onChange={inputHandler}/>
-        <input type="button" value="Search" onClick={handleClickSearch}/>
-        {loader ? <p>Loading...</p> : ''}
+            <label htmlFor="search">Search</label>
+            <input type="text" name="search" onChange={inputHandler} />
+            <input type="button" value="Search" onClick={handleClickSearch} />
+            {loader ? <p>Loading...</p> : ''}
             {algoliaData.map(data => {
                 return <div key={data.objectID}> <a href={data.url}>{data.title}</a></div>
             })}

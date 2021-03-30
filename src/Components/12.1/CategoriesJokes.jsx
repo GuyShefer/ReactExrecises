@@ -19,7 +19,7 @@ export class CategoriesJokes extends React.Component {
         return <>
             <select name="categories" onChange={this.getJokeByCategory}>
                 {this.state.categories.map(value => {
-                    return <option value={value}>{value}</option>
+                    return <option key={value} value={value}>{value}</option>
                 })}
             </select>
             <p>{this.state.categoryJoke}</p>
