@@ -10,6 +10,7 @@ import HideText from './Components/18.1/HideText';
 import SimpleTodo from './Components/18.2/SimpleTodo';
 import WhatsTheTime from './Components/18.3/WhatsTheTime';
 import MarkTheBox from './Components/18.4/MarkTheBox';
+import SimpleFetch from './Components/19.1/SimpleFetch';
 
 class App extends React.Component {
   state = { showSpinner: true };
@@ -38,7 +39,8 @@ class App extends React.Component {
         {/* <HideText text={text} maxLength={50}/> */}
         {/* <SimpleTodo/> */}
         {/* <WhatsTheTime/> */}
-        <MarkTheBox/>
+        {/* <MarkTheBox/> */}
+        <SimpleFetch />
       </div >
     }
 
