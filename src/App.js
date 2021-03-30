@@ -11,6 +11,7 @@ import SimpleTodo from './Components/18.2/SimpleTodo';
 import WhatsTheTime from './Components/18.3/WhatsTheTime';
 import MarkTheBox from './Components/18.4/MarkTheBox';
 import SimpleFetch from './Components/19.1/SimpleFetch';
+import Countries from './Components/19.2/Countries';
 
 class App extends React.Component {
   state = { showSpinner: true };
@@ -40,7 +41,8 @@ class App extends React.Component {
         {/* <SimpleTodo/> */}
         {/* <WhatsTheTime/> */}
         {/* <MarkTheBox/> */}
-        <SimpleFetch />
+        {/* <SimpleFetch /> */}
+        <Countries/>
       </div >
     }
 
