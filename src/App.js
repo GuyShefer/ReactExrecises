@@ -1,21 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Spinner } from './Components/9.1/Spinner';
-import { BrowserRouter, Route } from 'react-router-dom';
-import { Homepage } from './Components/16.1/Homepage';
-import { Products } from './Components/16.1/Products';
-import { Header } from './Components/16.1/Header';
-import { ProductDetail } from './Components/16.1/ProductDetail';
-import HideText from './Components/18.1/HideText';
-import SimpleTodo from './Components/18.2/SimpleTodo';
-import WhatsTheTime from './Components/18.3/WhatsTheTime';
-import MarkTheBox from './Components/18.4/MarkTheBox';
-import SimpleFetch from './Components/19.1/SimpleFetch';
-import Countries from './Components/19.2/Countries';
-import AlogoliaAPI from './Components/19.3/AlogoliaAPI';
-import { CategoriesJokes } from './Components/12.1/CategoriesJokes';
-import { ChukNorris } from './Components/12.1/ChukNorris';
-import ChukNorrisRefactor from './Components/19.4/ChukNorrisRefactor';
+import CancelRequest from './Components/20.1/CancelRequest';
 
 class App extends React.Component {
   state = { showSpinner: true };
@@ -48,9 +34,10 @@ class App extends React.Component {
         {/* <SimpleFetch /> */}
         {/* <Countries/> */}
         {/* <AlogoliaAPI/> */}
-        <ChukNorris/>
+        {/* <ChukNorris/>
         <hr></hr>
-        <ChukNorrisRefactor/>
+        <ChukNorrisRefactor/> */}
+        <CancelRequest/>
       </div >
     }
 
