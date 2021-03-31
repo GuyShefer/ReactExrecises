@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { Spinner } from './Components/9.1/Spinner';
 import CancelRequest from './Components/20.1/CancelRequest';
+import Editing from './Components/21.1/Editing';
 
 class App extends React.Component {
   state = { showSpinner: true };
@@ -37,7 +38,8 @@ class App extends React.Component {
         {/* <ChukNorris/>
         <hr></hr>
         <ChukNorrisRefactor/> */}
-        <CancelRequest/>
+        {/* <CancelRequest/> */}
+        <Editing/>
       </div >
     }
 
